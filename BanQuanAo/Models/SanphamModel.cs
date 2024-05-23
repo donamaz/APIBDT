@@ -8,11 +8,14 @@
         public string? Mota { get; set; }
         public double Gia { get; set; }
         public double GiaKM { get; set; }
+        public double VAT { get; set; }
         public bool? Trangthai { get; set; }
         public int Danhgia { get; set; }
         public DateTime Ngaydang { get; set; }
         public int? LoaiSpid { get; set; }
         public int? Sizeid { get; set; }
+        public int? Chatlieuid { get; set; }
+        public int? Mauid { get; set; }
     }
  
 }

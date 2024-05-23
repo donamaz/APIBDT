@@ -10,7 +10,7 @@ namespace BanDienThoai.Data
         {
 
         }
-
+        public DbSet<Danhmuc>? Danhmucs { get; set; }
         public DbSet<LoaiSP>? LoaiSps { get; set; }
         public DbSet<Sanpham>? Sanphams { get; set; }
         public DbSet<NhaCungCap>? NhaCungCaps { get; set; }
@@ -22,11 +22,16 @@ namespace BanDienThoai.Data
         public DbSet<Baiviet>? Baiviets { get; set; }
         public DbSet<Khachhang>? Khachhangs { get; set; }
         public DbSet<Size>? Sizes { get; set; }
+        public DbSet<Chatlieu>? Chatlieus { get; set; }
+        public DbSet<Mau>? Maus { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
+            modelBuilder.Entity<LoaiSP>()
+               .HasOne(s => s.Danhmuc)
+               .WithMany(l => l.LoaiSP)
+               .HasForeignKey(s => s.Danhmucid);
             modelBuilder.Entity<Sanpham>()
                 .HasOne(s => s.LoaiSP)
                 .WithMany(l => l.Sanpham)
@@ -43,6 +48,14 @@ namespace BanDienThoai.Data
                 .HasOne(c => c.Sanpham)
                 .WithMany(s => s.Chitietdonhang)
                 .HasForeignKey(c => c.SanphamId);
+            modelBuilder.Entity<Chitietdonhang>()
+               .HasOne(c => c.Size)
+               .WithMany(d => d.Chitietdonhangs)
+               .HasForeignKey(c => c.KichthuocId);
+            modelBuilder.Entity<Chitietdonhang>()
+               .HasOne(c => c.Mau)
+               .WithMany(d => d.Chitietdonhangs)
+               .HasForeignKey(c => c.MauId);
 
             modelBuilder.Entity<Chitietdonnhap>()
                 .HasOne(c => c.Hoadonnhap)
@@ -62,10 +75,17 @@ namespace BanDienThoai.Data
                 .WithMany(n => n.Hoadonnhap)
                 .HasForeignKey(h => h.NhaCungCapId);
             modelBuilder.Entity<Sanpham>()
-    .HasOne(s => s.Size) // Một size chỉ thuộc về một sản phẩm
-    .WithMany(sp => sp.Sanphams) // Một sản phẩm có thể có nhiều size
-    .HasForeignKey(s => s.Sizeid); // Khóa ngoại của bảng Size tham chiếu đến bảng Sanpham
-
+                .HasOne(s => s.Size) // Một size chỉ thuộc về một sản phẩm
+                .WithMany(sp => sp.Sanphams) // Một sản phẩm có thể có nhiều size
+                .HasForeignKey(s => s.Sizeid); // Khóa ngoại của bảng Size tham chiếu đến bảng Sanpham
+            modelBuilder.Entity<Sanpham>()
+               .HasOne(s => s.Chatlieu) 
+               .WithMany(sp => sp.Sanphams) 
+               .HasForeignKey(s => s.Chatlieuid); 
+            modelBuilder.Entity<Sanpham>()
+               .HasOne(s => s.Mau) 
+               .WithMany(sp => sp.Sanphams) 
+               .HasForeignKey(s => s.Mauid); 
         }
     }
 }

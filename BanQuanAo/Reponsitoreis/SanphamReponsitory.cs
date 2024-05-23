@@ -4,6 +4,7 @@ using BanQuanAo.Data;
 using BanQuanAo.Models;
 using BanQuanAo.Reponsitoreis.Interface;
 using Microsoft.EntityFrameworkCore;
+using static Microsoft.Extensions.Logging.EventSource.LoggingEventSource;
 
 namespace BanQuanAo.Reponsitoreis
 {
@@ -121,6 +122,33 @@ namespace BanQuanAo.Reponsitoreis
                 .Where(p => EF.Functions.Like(p.TenSP!, $"%{keyword}%"))
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
+                .ToListAsync();
+
+            return _mapper.Map<List<SanphamModel>>(sanphams);
+        }
+
+
+
+        public async Task<List<SanphamModel>> GetTop10KhuyenMaiAsync()
+        {
+            var sanphams = await _context.Sanphams!
+                 .Where(sp => sp.GiaKM > 0)
+                .OrderByDescending(sp => sp.Ngaydang)
+                .Take(10)
+                .ToListAsync();
+
+            return _mapper.Map<List<SanphamModel>>(sanphams);
+        }
+
+
+
+        public async Task<List<SanphamModel>> GetTop10MoiNhatAsync()
+        {
+
+            var sanphams = await _context.Sanphams!
+
+                .OrderByDescending(sp => sp.Ngaydang)
+                .Take(10)
                 .ToListAsync();
 
             return _mapper.Map<List<SanphamModel>>(sanphams);

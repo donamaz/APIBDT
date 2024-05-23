@@ -137,6 +137,12 @@ namespace BanQuanAo.Migrations
                     b.Property<double>("Gia")
                         .HasColumnType("float");
 
+                    b.Property<int>("KichthuocId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MauId")
+                        .HasColumnType("int");
+
                     b.Property<int>("SanphamId")
                         .HasColumnType("int");
 
@@ -146,6 +152,10 @@ namespace BanQuanAo.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("DonhangId");
+
+                    b.HasIndex("KichthuocId");
+
+                    b.HasIndex("MauId");
 
                     b.HasIndex("SanphamId");
 
@@ -209,6 +219,10 @@ namespace BanQuanAo.Migrations
 
                     b.Property<double>("Tongtien")
                         .HasColumnType("float");
+
+                    b.Property<string>("Trangthai")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("Id");
 
@@ -332,6 +346,48 @@ namespace BanQuanAo.Migrations
                     b.ToTable("NhanVien");
                 });
 
+            modelBuilder.Entity("BanQuanAo.Data.Chatlieu", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
+
+                    b.Property<string>("Chatlieus")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<bool?>("TrangThai")
+                        .HasMaxLength(20)
+                        .HasColumnType("bit");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Chatlieu");
+                });
+
+            modelBuilder.Entity("BanQuanAo.Data.Danhmuc", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
+
+                    b.Property<string>("TenDM")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<bool?>("TrangThai")
+                        .HasMaxLength(30)
+                        .HasColumnType("bit");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("Danhmuc");
+                });
+
             modelBuilder.Entity("BanQuanAo.Data.LoaiSP", b =>
                 {
                     b.Property<int>("ID")
@@ -340,17 +396,43 @@ namespace BanQuanAo.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
 
+                    b.Property<int?>("Danhmucid")
+                        .HasColumnType("int");
+
                     b.Property<string>("TenLoai")
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("TrangThai")
+                    b.Property<bool?>("TrangThai")
                         .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
+                        .HasColumnType("bit");
 
                     b.HasKey("ID");
 
+                    b.HasIndex("Danhmucid");
+
                     b.ToTable("Loaisp");
+                });
+
+            modelBuilder.Entity("BanQuanAo.Data.Mau", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
+
+                    b.Property<string>("Maus")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<bool?>("TrangThai")
+                        .HasMaxLength(20)
+                        .HasColumnType("bit");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Mau");
                 });
 
             modelBuilder.Entity("BanQuanAo.Data.Sanpham", b =>
@@ -365,6 +447,9 @@ namespace BanQuanAo.Migrations
                         .HasMaxLength(1000)
                         .HasColumnType("nvarchar(1000)");
 
+                    b.Property<int?>("Chatlieuid")
+                        .HasColumnType("int");
+
                     b.Property<int>("Danhgia")
                         .HasColumnType("int");
 
@@ -378,6 +463,9 @@ namespace BanQuanAo.Migrations
                         .IsRequired()
                         .HasColumnType("int");
 
+                    b.Property<int?>("Mauid")
+                        .HasColumnType("int");
+
                     b.Property<string>("Mota")
                         .HasMaxLength(1000)
                         .HasColumnType("nvarchar(1000)");
@@ -385,17 +473,26 @@ namespace BanQuanAo.Migrations
                     b.Property<DateTime>("Ngaydang")
                         .HasColumnType("datetime2");
 
+                    b.Property<int?>("Sizeid")
+                        .HasColumnType("int");
+
                     b.Property<string>("TenSP")
                         .HasMaxLength(250)
                         .HasColumnType("nvarchar(250)");
 
-                    b.Property<string>("Trangthai")
+                    b.Property<bool?>("Trangthai")
                         .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasColumnType("bit");
 
                     b.HasKey("ID");
 
+                    b.HasIndex("Chatlieuid");
+
                     b.HasIndex("LoaiSpid");
+
+                    b.HasIndex("Mauid");
+
+                    b.HasIndex("Sizeid");
 
                     b.ToTable("Sanpham");
                 });
@@ -412,12 +509,7 @@ namespace BanQuanAo.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<int?>("Sanphamid")
-                        .HasColumnType("int");
-
                     b.HasKey("ID");
-
-                    b.HasIndex("Sanphamid");
 
                     b.ToTable("Size");
                 });
@@ -563,6 +655,18 @@ namespace BanQuanAo.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("BanQuanAo.Data.Size", "Size")
+                        .WithMany("Chitietdonhangs")
+                        .HasForeignKey("KichthuocId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BanQuanAo.Data.Mau", "Mau")
+                        .WithMany("Chitietdonhangs")
+                        .HasForeignKey("MauId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("BanQuanAo.Data.Sanpham", "Sanpham")
                         .WithMany("Chitietdonhang")
                         .HasForeignKey("SanphamId")
@@ -571,7 +675,11 @@ namespace BanQuanAo.Migrations
 
                     b.Navigation("Donhang");
 
+                    b.Navigation("Mau");
+
                     b.Navigation("Sanpham");
+
+                    b.Navigation("Size");
                 });
 
             modelBuilder.Entity("BanDienThoai.Data.Chitietdonnhap", b =>
@@ -607,24 +715,42 @@ namespace BanQuanAo.Migrations
                     b.Navigation("NhaCungCap");
                 });
 
+            modelBuilder.Entity("BanQuanAo.Data.LoaiSP", b =>
+                {
+                    b.HasOne("BanQuanAo.Data.Danhmuc", "Danhmuc")
+                        .WithMany("LoaiSP")
+                        .HasForeignKey("Danhmucid");
+
+                    b.Navigation("Danhmuc");
+                });
+
             modelBuilder.Entity("BanQuanAo.Data.Sanpham", b =>
                 {
+                    b.HasOne("BanQuanAo.Data.Chatlieu", "Chatlieu")
+                        .WithMany("Sanphams")
+                        .HasForeignKey("Chatlieuid");
+
                     b.HasOne("BanQuanAo.Data.LoaiSP", "LoaiSP")
                         .WithMany("Sanpham")
                         .HasForeignKey("LoaiSpid")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("BanQuanAo.Data.Mau", "Mau")
+                        .WithMany("Sanphams")
+                        .HasForeignKey("Mauid");
+
+                    b.HasOne("BanQuanAo.Data.Size", "Size")
+                        .WithMany("Sanphams")
+                        .HasForeignKey("Sizeid");
+
+                    b.Navigation("Chatlieu");
+
                     b.Navigation("LoaiSP");
-                });
 
-            modelBuilder.Entity("BanQuanAo.Data.Size", b =>
-                {
-                    b.HasOne("BanQuanAo.Data.Sanpham", "Sanpham")
-                        .WithMany("Sizes")
-                        .HasForeignKey("Sanphamid");
+                    b.Navigation("Mau");
 
-                    b.Navigation("Sanpham");
+                    b.Navigation("Size");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -698,9 +824,26 @@ namespace BanQuanAo.Migrations
                     b.Navigation("Hoadonnhap");
                 });
 
+            modelBuilder.Entity("BanQuanAo.Data.Chatlieu", b =>
+                {
+                    b.Navigation("Sanphams");
+                });
+
+            modelBuilder.Entity("BanQuanAo.Data.Danhmuc", b =>
+                {
+                    b.Navigation("LoaiSP");
+                });
+
             modelBuilder.Entity("BanQuanAo.Data.LoaiSP", b =>
                 {
                     b.Navigation("Sanpham");
+                });
+
+            modelBuilder.Entity("BanQuanAo.Data.Mau", b =>
+                {
+                    b.Navigation("Chitietdonhangs");
+
+                    b.Navigation("Sanphams");
                 });
 
             modelBuilder.Entity("BanQuanAo.Data.Sanpham", b =>
@@ -708,8 +851,13 @@ namespace BanQuanAo.Migrations
                     b.Navigation("Chitietdonhang");
 
                     b.Navigation("Chitietdonnhap");
+                });
 
-                    b.Navigation("Sizes");
+            modelBuilder.Entity("BanQuanAo.Data.Size", b =>
+                {
+                    b.Navigation("Chitietdonhangs");
+
+                    b.Navigation("Sanphams");
                 });
 #pragma warning restore 612, 618
         }

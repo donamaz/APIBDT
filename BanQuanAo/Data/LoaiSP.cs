@@ -13,6 +13,9 @@ namespace BanQuanAo.Data
         [MaxLength(30)]
         public bool? TrangThai { get; set; }
 
+        public virtual int? Danhmucid { get; set; }
+
+        public virtual Danhmuc? Danhmuc { get; set; } // Khóa ngoại tham chiếu đến bảng LoaiSP
 
 
 

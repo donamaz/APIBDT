@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using BanDienThoai.Data;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BanQuanAo.Data
@@ -14,6 +15,7 @@ namespace BanQuanAo.Data
         
 
         public virtual ICollection<Sanpham> Sanphams { get; set; } // Một sản phẩm có thể có nhiều kích cỡ
+        public virtual ICollection<Chitietdonhang> Chitietdonhangs { get; set; }
 
     }
 }

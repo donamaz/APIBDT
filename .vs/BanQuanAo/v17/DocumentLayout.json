@@ -1,0 +1,924 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\controllers\\chatlieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\controllers\\chatlieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\controllers\\maucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\controllers\\maucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\data\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\data\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\data\\mau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\data\\mau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\data\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\data\\size.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\controllers\\sizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\homereponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\homereponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\sanphamreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\sanphamreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\interface\\ihomereponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\interface\\ihomereponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\interface\\isanphamreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\interface\\isanphamreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\data\\loaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\data\\loaisp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\controllers\\loaispcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\controllers\\loaispcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\data\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\data\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\models\\sanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\models\\sanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\interface\\idanhmucreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\interface\\idanhmucreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\interface\\ichatlieureponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\interface\\ichatlieureponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\models\\danhmucwithloaispmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\models\\danhmucwithloaispmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\controllers\\danhmuccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\models\\loaispmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\models\\loaispmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\models\\danhmucmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\models\\danhmucmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\interface\\iloaispreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\interface\\iloaispreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\accountreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\accountreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\donhangreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\donhangreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\data\\chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\data\\chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\dto\\donhangrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\dto\\donhangrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\dto\\ctietdonhangrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\dto\\ctietdonhangrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\models\\ctdonhangmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\models\\ctdonhangmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\models\\donhangmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\models\\donhangmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\data\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\data\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\data\\chatlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\data\\chatlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\data\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\data\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\models\\maumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\models\\maumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\maureponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\maureponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\models\\chatlieumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\models\\chatlieumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\chatlieureponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\chatlieureponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\loaispreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\loaispreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\interface\\imaureponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\interface\\imaureponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\interface\\isizereponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\interface\\isizereponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\helpers\\applicationmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\helpers\\applicationmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\models\\sizemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\models\\sizemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\models\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\models\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\interface\\idonhangreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\interface\\idonhangreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\data\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\data\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\models\\emailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\models\\emailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\interface\\iaccountreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\interface\\iaccountreponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\reponsitoreis\\sizereponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\reponsitoreis\\sizereponsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\helpers\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\helpers\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\banquanao.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\banquanao.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|d:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\banquanao\\banquanao\\migrations\\20240514095018_banquanao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEE26A6-EA04-4565-B721-58304B4458C7}|BanQuanAo\\BanQuanAo.csproj|solutionrelative:banquanao\\migrations\\20240514095018_banquanao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SanphamController.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\SanphamController.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Controllers\\SanphamController.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\SanphamController.cs",
+              "RelativeToolTip": "BanQuanAo\\Controllers\\SanphamController.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAIA4wGAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T08:31:29.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BanQuanAo\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAA1wD4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T08:23:10.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatlieuController.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\ChatlieuController.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Controllers\\ChatlieuController.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\ChatlieuController.cs",
+              "RelativeToolTip": "BanQuanAo\\Controllers\\ChatlieuController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T02:25:21.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SizeController.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\SizeController.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Controllers\\SizeController.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\SizeController.cs",
+              "RelativeToolTip": "BanQuanAo\\Controllers\\SizeController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAIwEQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:44:40.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Size.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\Size.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Data\\Size.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\Size.cs",
+              "RelativeToolTip": "BanQuanAo\\Data\\Size.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T08:33:41.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mau.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\Mau.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Data\\Mau.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\Mau.cs",
+              "RelativeToolTip": "BanQuanAo\\Data\\Mau.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T02:39:59.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Danhmuc.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\Danhmuc.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Data\\Danhmuc.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\Danhmuc.cs",
+              "RelativeToolTip": "BanQuanAo\\Data\\Danhmuc.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwBIAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:03:15.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MauController.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\MauController.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Controllers\\MauController.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\MauController.cs",
+              "RelativeToolTip": "BanQuanAo\\Controllers\\MauController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAnwEMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T02:25:44.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SanphamReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\SanphamReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\SanphamReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\SanphamReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\SanphamReponsitory.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAewJsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:51:53.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IHomeReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\IHomeReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\Interface\\IHomeReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\IHomeReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\Interface\\IHomeReponsitory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:10:24.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ISanphamReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\ISanphamReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\Interface\\ISanphamReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\ISanphamReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\Interface\\ISanphamReponsitory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:51:37.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IChatlieuReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\IChatlieuReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\Interface\\IChatlieuReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\IChatlieuReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\Interface\\IChatlieuReponsitory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T02:08:49.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\HomeReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\HomeReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\HomeReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\HomeReponsitory.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAgwIYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:10:59.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IDanhmucReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\IDanhmucReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\Interface\\IDanhmucReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\IDanhmucReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\Interface\\IDanhmucReponsitory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:35:21.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoaiSP.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\LoaiSP.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Data\\LoaiSP.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\LoaiSP.cs",
+              "RelativeToolTip": "BanQuanAo\\Data\\LoaiSP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T14:24:22.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoaiSPController.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\LoaiSPController.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Controllers\\LoaiSPController.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\LoaiSPController.cs",
+              "RelativeToolTip": "BanQuanAo\\Controllers\\LoaiSPController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAApwEIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T14:38:48.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Sanpham.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\Sanpham.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Data\\Sanpham.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\Sanpham.cs",
+              "RelativeToolTip": "BanQuanAo\\Data\\Sanpham.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAADgvywAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T03:43:39.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SanphamModel.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\SanphamModel.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Models\\SanphamModel.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\SanphamModel.cs",
+              "RelativeToolTip": "BanQuanAo\\Models\\SanphamModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:52:30.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Program.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Program.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Program.cs",
+              "RelativeToolTip": "BanQuanAo\\Program.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAArwF0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T02:25:49.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoaiSPModel.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\LoaiSPModel.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Models\\LoaiSPModel.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\LoaiSPModel.cs",
+              "RelativeToolTip": "BanQuanAo\\Models\\LoaiSPModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T14:24:14.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DanhmucModel.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\DanhmucModel.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Models\\DanhmucModel.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\DanhmucModel.cs",
+              "RelativeToolTip": "BanQuanAo\\Models\\DanhmucModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T06:27:01.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DanhmucWithLoaiSPModel.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\DanhmucWithLoaiSPModel.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Models\\DanhmucWithLoaiSPModel.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\DanhmucWithLoaiSPModel.cs",
+              "RelativeToolTip": "BanQuanAo\\Models\\DanhmucWithLoaiSPModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T08:27:42.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DanhmucController.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\DanhmucController.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Controllers\\DanhmucController.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\DanhmucController.cs",
+              "RelativeToolTip": "BanQuanAo\\Controllers\\DanhmucController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T08:38:58.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ILoaiSPReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\ILoaiSPReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\Interface\\ILoaiSPReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\ILoaiSPReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\Interface\\ILoaiSPReponsitory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T14:26:45.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\appsettings.json",
+              "RelativeDocumentMoniker": "BanQuanAo\\appsettings.json",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\appsettings.json",
+              "RelativeToolTip": "BanQuanAo\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-30T11:00:34.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Chitietdonhang.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\Chitietdonhang.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Data\\Chitietdonhang.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\Chitietdonhang.cs",
+              "RelativeToolTip": "BanQuanAo\\Data\\Chitietdonhang.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAswBUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T09:19:50.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DonhangReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\DonhangReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\DonhangReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\DonhangReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\DonhangReponsitory.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAASwDAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T08:37:19.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AccountReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\AccountReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\AccountReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\AccountReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\AccountReponsitory.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAD0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T02:52:27.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20240514095018_BanQuanAo.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Migrations\\20240514095018_BanQuanAo.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Migrations\\20240514095018_BanQuanAo.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Migrations\\20240514095018_BanQuanAo.cs",
+              "RelativeToolTip": "BanQuanAo\\Migrations\\20240514095018_BanQuanAo.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:50:18.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DonhangRequest.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\DTO\\DonhangRequest.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\DTO\\DonhangRequest.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\DTO\\DonhangRequest.cs",
+              "RelativeToolTip": "BanQuanAo\\DTO\\DonhangRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T08:41:11.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CTietdonhangRequest.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\DTO\\CTietdonhangRequest.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\DTO\\CTietdonhangRequest.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\DTO\\CTietdonhangRequest.cs",
+              "RelativeToolTip": "BanQuanAo\\DTO\\CTietdonhangRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T08:29:18.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CTDonhangModel.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\CTDonhangModel.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Models\\CTDonhangModel.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\CTDonhangModel.cs",
+              "RelativeToolTip": "BanQuanAo\\Models\\CTDonhangModel.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAqwCIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T08:26:05.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DonhangModel.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\DonhangModel.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Models\\DonhangModel.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\DonhangModel.cs",
+              "RelativeToolTip": "BanQuanAo\\Models\\DonhangModel.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA8wCAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:48:12.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Nhanvien.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\Nhanvien.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Data\\Nhanvien.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\Nhanvien.cs",
+              "RelativeToolTip": "BanQuanAo\\Data\\Nhanvien.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA8wBMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T09:42:23.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Chatlieu.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\Chatlieu.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Data\\Chatlieu.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\Chatlieu.cs",
+              "RelativeToolTip": "BanQuanAo\\Data\\Chatlieu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T02:34:55.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "NhaCungCap.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\NhaCungCap.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Data\\NhaCungCap.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\NhaCungCap.cs",
+              "RelativeToolTip": "BanQuanAo\\Data\\NhaCungCap.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA8wBMAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T09:42:14.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DonhangController.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\DonhangController.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Controllers\\DonhangController.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\DonhangController.cs",
+              "RelativeToolTip": "BanQuanAo\\Controllers\\DonhangController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAApwCkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T08:39:16.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ChatlieuModel.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\ChatlieuModel.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Models\\ChatlieuModel.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\ChatlieuModel.cs",
+              "RelativeToolTip": "BanQuanAo\\Models\\ChatlieuModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T02:48:46.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MauModel.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\MauModel.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Models\\MauModel.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\MauModel.cs",
+              "RelativeToolTip": "BanQuanAo\\Models\\MauModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T02:48:59.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MauReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\MauReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\MauReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\MauReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\MauReponsitory.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAhwBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T02:13:00.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ChatlieuReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\ChatlieuReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\ChatlieuReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\ChatlieuReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\ChatlieuReponsitory.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAIA1wBoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T02:13:42.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IMauReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\IMauReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\Interface\\IMauReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\IMauReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\Interface\\IMauReponsitory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T02:09:29.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LoaiSPReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\LoaiSPReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\LoaiSPReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\LoaiSPReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\LoaiSPReponsitory.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAIAwwD4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T14:27:36.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ISizeReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\ISizeReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\Interface\\ISizeReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\ISizeReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\Interface\\ISizeReponsitory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:54:51.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ApplicationMapper.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Helpers\\ApplicationMapper.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Helpers\\ApplicationMapper.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Helpers\\ApplicationMapper.cs",
+              "RelativeToolTip": "BanQuanAo\\Helpers\\ApplicationMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T11:13:36.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SizeModel.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\SizeModel.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Models\\SizeModel.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\SizeModel.cs",
+              "RelativeToolTip": "BanQuanAo\\Models\\SizeModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:53:09.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "BanQuanAo\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAhwDAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T02:53:29.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SignUpModel.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\SignUpModel.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Models\\SignUpModel.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\SignUpModel.cs",
+              "RelativeToolTip": "BanQuanAo\\Models\\SignUpModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T02:48:46.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "SignInModel.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\SignInModel.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Models\\SignInModel.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\SignInModel.cs",
+              "RelativeToolTip": "BanQuanAo\\Models\\SignInModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T02:50:51.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IDonhangReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\IDonhangReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\Interface\\IDonhangReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\IDonhangReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\Interface\\IDonhangReponsitory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T08:36:19.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Donhang.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\Donhang.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Data\\Donhang.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Data\\Donhang.cs",
+              "RelativeToolTip": "BanQuanAo\\Data\\Donhang.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T07:03:55.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "EmailModel.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\EmailModel.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Models\\EmailModel.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Models\\EmailModel.cs",
+              "RelativeToolTip": "BanQuanAo\\Models\\EmailModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T04:28:03.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IAccountReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\IAccountReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\Interface\\IAccountReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\Interface\\IAccountReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\Interface\\IAccountReponsitory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T02:52:00.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "SizeReponsitory.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\SizeReponsitory.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Reponsitoreis\\SizeReponsitory.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Reponsitoreis\\SizeReponsitory.cs",
+              "RelativeToolTip": "BanQuanAo\\Reponsitoreis\\SizeReponsitory.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwBMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:55:30.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "EmailConfiguration.cs",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Helpers\\EmailConfiguration.cs",
+              "RelativeDocumentMoniker": "BanQuanAo\\Helpers\\EmailConfiguration.cs",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\Helpers\\EmailConfiguration.cs",
+              "RelativeToolTip": "BanQuanAo\\Helpers\\EmailConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T04:29:07.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "BanQuanAo.csproj",
+              "DocumentMoniker": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\BanQuanAo.csproj",
+              "RelativeDocumentMoniker": "BanQuanAo\\BanQuanAo.csproj",
+              "ToolTip": "D:\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\code \u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p\\BanQuanAo\\BanQuanAo\\BanQuanAo.csproj",
+              "RelativeToolTip": "BanQuanAo\\BanQuanAo.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-30T03:08:22.191Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -56,7 +56,9 @@ namespace BanQuanAo.Repositories
             var authClaims = new List<Claim>
             {
                 new Claim(ClaimTypes.Email, model.Email),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim("firstname", user.FirstName), // Thêm firstname vào danh sách các claims
+    new Claim("lastname", user.LastName)
             };
             var userRole = await userManager.GetRolesAsync(user);
             foreach (var role in userRole)
@@ -98,12 +100,12 @@ namespace BanQuanAo.Repositories
             var result = await userManager.CreateAsync(user, model.Password);
             if (result.Succeeded)
             {
-                if (!await roleManager.RoleExistsAsync(AppRole.Customer))
+                if (!await roleManager.RoleExistsAsync(AppRole.Admin))
                 {
-                    await roleManager.CreateAsync(new IdentityRole(AppRole.Customer));
+                    await roleManager.CreateAsync(new IdentityRole(AppRole.Admin));
                 }
 
-                await userManager.AddToRoleAsync(user, AppRole.Customer);
+                await userManager.AddToRoleAsync(user, AppRole.Admin);
 
                 
             }

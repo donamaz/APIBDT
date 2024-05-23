@@ -34,7 +34,7 @@ namespace BanQuanAo.Controllers
                 return BadRequest();
             }
         }
-        [HttpPost]
+        [HttpPost("Adddonhang")]
         public async Task<IActionResult> AddDonhang([FromBody] DonhangRequest request)
         {
             try

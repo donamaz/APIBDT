@@ -16,10 +16,22 @@ namespace BanQuanAo.Data
         public string? Anh { get; set; }
         [MaxLength(1000)]
         public string? Mota { get; set; }
+       
         [Range(0, double.MaxValue)]
         public double Gia { get; set; }
         [Range(0, double.MaxValue)]
         public double GiaKM { get; set; }
+
+        public double VAT
+        {
+            get
+            {
+                // Tính toán VAT dựa trên giá của sản phẩm
+                // Ví dụ: VAT là 10% của giá sản phẩm
+                return Gia * 0.1; // 10%
+            }
+        }
+
         [MaxLength(20)]
         public bool? Trangthai { get; set; }
         [Range(0, 5)]
@@ -39,6 +51,12 @@ namespace BanQuanAo.Data
         public virtual int? Sizeid { get; set; }
 
         public virtual Size? Size { get; set; } // Khóa ngoại tham chiếu đến bảng Sanpham
+        public virtual int? Chatlieuid { get; set; }
+
+        public virtual Chatlieu? Chatlieu { get; set; } // Khóa ngoại tham chiếu đến bảng Sanpham
+        public virtual int? Mauid { get; set; }
+
+        public virtual Mau? Mau { get; set; } // Khóa ngoại tham chiếu đến bảng Sanpham
         public virtual ICollection<Chitietdonnhap> Chitietdonnhap { get; set; } // Danh sách các chi tiết đơn nhập của sản phẩm
         public virtual ICollection<Chitietdonhang> Chitietdonhang { get; set; } // Danh sách các chi tiết đơn hàng của sản phẩm
 

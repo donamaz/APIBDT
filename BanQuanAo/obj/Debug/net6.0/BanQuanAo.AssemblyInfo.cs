@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BanQuanAo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3247b3f8900921ee99a0395f56d9b76deaf02ebd")]
 [assembly: System.Reflection.AssemblyProductAttribute("BanQuanAo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BanQuanAo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

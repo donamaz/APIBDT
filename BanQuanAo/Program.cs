@@ -81,12 +81,14 @@ builder.Services.AddAuthentication(option =>
     };
 });
 
+builder.Services.AddScoped<IHomeReponsitory, HomeReponsitory>();
 
-
-
+builder.Services.AddScoped<IDanhmucReponsitory, DanhmucReponsitory>();
 builder.Services.AddScoped<ILoaiSPReponsitory, LoaiSPReponsitory>();
 builder.Services.AddScoped<IAccountReponsitory, AccountRepository>();
 builder.Services.AddScoped<ISizeReponsitory, SizeReponsitory>();
+builder.Services.AddScoped<IChatlieuReponsitory, ChatlieuReponsitory>();
+builder.Services.AddScoped<IMauReponsitory, MauReponsitory>();
 builder.Services.AddScoped<ISanphamReponsitory, SanphamReponsitory>();
 builder.Services.AddScoped<IDonhangReponsitory, DonhangReponsitory>();
 builder.Services.AddCors(options =>

@@ -1,9 +1,13 @@
 ﻿
 
+using BanDienThoai.Helpers;
 using BanQuanAo.Models;
 using BanQuanAo.Reponsitoreis.Interface;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 
 namespace BanQuanAo.Controllers
 {
@@ -46,8 +50,54 @@ namespace BanQuanAo.Controllers
             {
                 return Unauthorized();
             }
+            var (userRoles, firstName, lastName) = ExtractUserRolesAndNameFromToken(token);
 
-            return Ok(new { token });
+            // Trả về một đối tượng JSON chứa cả tên vai trò và token
+            return Ok(new { token, roles = userRoles, firstname = firstName, lastname = lastName });
+        }
+        public static (List<string> roles, string firstName, string lastName) ExtractUserRolesAndNameFromToken(string token)
+        {
+            var userRoles = new List<string>();
+            string firstName = "";
+            string lastName = "";
+
+            try
+            {
+                var tokenHandler = new JwtSecurityTokenHandler();
+                var jwtToken = tokenHandler.ReadToken(token) as JwtSecurityToken;
+
+                if (jwtToken != null)
+                {
+                    var claims = jwtToken.Claims;
+                    foreach (var claim in claims)
+                    {
+                        if (claim.Type == ClaimTypes.Role)
+                        {
+                            // Xác định vai trò từ claim và thêm vào danh sách vai trò
+                            var role = claim.Value;
+                            if (role == AppRole.Admin || role == AppRole.Customer || role == AppRole.Manager || role == AppRole.Accountant || role == AppRole.HR || role == AppRole.Warehouse)
+                            {
+                                userRoles.Add(role);
+                            }
+                        }
+                        else if (claim.Type == "firstname")
+                        {
+                            firstName = claim.Value;
+                        }
+                        else if (claim.Type == "lastname")
+                        {
+                            lastName = claim.Value;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Xử lý nếu có lỗi khi giải mã token
+                Console.WriteLine("Error extracting user roles and name from token: " + ex.Message);
+            }
+
+            return (userRoles, firstName, lastName);
         }
     }
 }

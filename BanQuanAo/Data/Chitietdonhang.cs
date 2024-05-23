@@ -14,8 +14,11 @@ namespace BanDienThoai.Data
 
         [Range(0, double.MaxValue)]
         public double Gia { get; set; }
-        [MaxLength(100)]
-        public string? KichCo { get; set; } // Đổi tên size thành KichCo để tránh từ khóa
+        
+        public int KichthuocId { get; set; }
+        public virtual Size? Size { get; set; }
+        public int MauId { get; set; }
+        public virtual Mau? Mau { get; set; }
         public int DonhangId { get; set; }
         public virtual Donhang? Donhang { get; set; }
 

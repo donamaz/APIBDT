@@ -8,6 +8,8 @@ namespace BanQuanAo.Models
         public string? Diachi { get; set; }
         public string? Ghichu { get; set; }
         public string? PTthanhtoan { get; set; }
+        public string? Trangthai { get; set; }
+        
         public double Tongtien { get; set; }
         public DateTime Ngaydat { get; set; }
         public int? KhachhangId { get; set; }
@@ -27,7 +29,8 @@ namespace BanQuanAo.Models
         public int Id { get; set; }
         public int Soluong { get; set; }
         public double Gia { get; set; }
-        public string? KichCo { get; set; }
+        public int kichthuocId { get; set; }
+        public int MauId { get; set; }
         public int DonhangId { get; set; }
         public int SanphamId { get; set; }
         

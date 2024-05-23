@@ -74,6 +74,8 @@ namespace BanQuanAo.Reponsitoreis
                         PTthanhtoan = dh.PTthanhtoan,
                         Tongtien = dh.Tongtien,
                         Ngaydat = dh.Ngaydat,
+                        Trangthai=dh.Trangthai,
+                       
                         KhachhangId = dh.KhachhangId
                     },
                     KhachhangModel = new KhachhangsModel
@@ -89,7 +91,8 @@ namespace BanQuanAo.Reponsitoreis
                         Id = ct.Id,
                         Soluong = ct.Soluong,
                         Gia = ct.Gia,
-                        KichCo = ct.KichCo,
+                        kichthuocId = ct.KichthuocId,
+                       MauId = ct.MauId,
                         DonhangId = ct.DonhangId,
                         SanphamId = ct.SanphamId,
                         SanphamModel = new SanphamModel // Khởi tạo thông tin sản phẩm

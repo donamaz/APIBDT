@@ -18,7 +18,11 @@ namespace BanDienThoai.Data
         public double Tongtien { get; set; }
 
         public DateTime Ngaydat { get; set; }
+        [MaxLength(50)]
+        public string? Trangthai{ get; set; }
+       
 
+      
         public int? KhachhangId { get; set; }
         public virtual Khachhang? Khachhang { get; set; }
 

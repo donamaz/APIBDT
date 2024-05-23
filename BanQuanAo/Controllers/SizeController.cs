@@ -27,14 +27,14 @@ namespace BanQuanAo.Controllers
                 return BadRequest();
             }
         }
-        [HttpGet("{id}")]
+        [HttpGet("GetAllSP/{id}")]
         //[Authorize(Roles = "Customer,Admin")]
         public async Task<IActionResult> GetByid(int id)
         {
             var Lsize = await size.GetByid(id);
             return Lsize == null ? NotFound() : Ok(Lsize);
         }
-        [HttpPost]
+        [HttpPost("AddSize")]
         //[Authorize(Roles = AppRole.Admin)]
         public async Task<IActionResult> AddSize(SizeModel model)
         {
@@ -50,7 +50,7 @@ namespace BanQuanAo.Controllers
             }
 
         }
-        [HttpPut("{id}")]
+        [HttpPut("UpdatedSize/{id}")]
         //[Authorize(Roles = AppRole.Admin)]
         public async Task<IActionResult> UpdatedSize(int id, [FromBody] SizeModel model)
         {
@@ -65,7 +65,7 @@ namespace BanQuanAo.Controllers
             }
 
         }
-        [HttpDelete("{id}")]
+        [HttpDelete("DeleteSize/{id}")]
         //[Authorize(Roles = AppRole.Admin)]
         public async Task<IActionResult> DeletSize([FromRoute] int id)
         {

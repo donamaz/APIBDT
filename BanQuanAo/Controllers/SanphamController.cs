@@ -111,5 +111,19 @@ namespace BanQuanAo.Controllers
             var result = await sanpham.GetSanphamByLoaiSp(loaiSpId);
             return Ok(result);
         }
+
+        [HttpGet("khuyenmai")]
+        public async Task<IActionResult> GetTop10KhuyenMai()
+        {
+            var sanphams = await sanpham.GetTop10KhuyenMaiAsync();
+            return Ok(sanphams);
+        }
+
+        [HttpGet("moi")]
+        public async Task<IActionResult> GetTop10MoiNhat()
+        {
+            var sanphams = await sanpham.GetTop10MoiNhatAsync();
+            return Ok(sanphams);
+        }
     }
 }
